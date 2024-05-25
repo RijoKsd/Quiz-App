@@ -1,5 +1,5 @@
 .container {
-    width: 640px;
+    width: 600px;
     margin: auto;
     margin-top: 150px;
     background: #fff;
@@ -15,11 +15,13 @@
     height: 2px;
     border: none;
     background: #707070;
+    margin: 10px 0;
 }
 
 .container h2 {
-    font-size: 27px;
+    font-size: 1.5rem;
     font-weight: 500;
+    margin-bottom: 20px;
 }
 
 .container ul li {
@@ -45,9 +47,18 @@
     font-weight: 500;
     border-radius: 8px;
     cursor: pointer;
+    border:none;
 }
 
 .container .index{
     margin:auto;
     font-size: 18px;
+}
+.container ul li.correct{
+    background-color: #dffff2;
+    border-color:#00d397;
+}
+.container ul li.wrong{
+    background-color: #ffeded;
+    border-color:#ff4d4d;
 }
